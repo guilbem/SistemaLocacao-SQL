@@ -1,6 +1,6 @@
 
 
-# ✅  Sistema de Locação de Veículos - BANCO DE DADOS RELACIONAL - SQL
+# ✅ BANCO - Sistema de Locação de Veículos - MYSQL
 
 ---
 
@@ -167,7 +167,7 @@ datas, filiais, categorias e vínculos.
 
 ---
 
-#**Autor:** Guilherme Ferreira Pinheiro Guimarães
+* **Autor:** Guilherme Ferreira Pinheiro Guimarães
 * **Disciplina:** Banco de Dados 2 – Projeto Final
 * **BANCO DE DADOS RELACIONAL – Sistema de Locação de Veículos - MYSQL**
 
