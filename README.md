@@ -8,7 +8,7 @@
 
 O Sistema de Locação de Veículos tem como objetivo gerenciar todo o ciclo operacional de uma locadora, desde o cadastro de clientes e veículos até reservas, locações, devoluções, cobranças e controle de movimentação da frota. O modelo proposto simula processos reais de empresas do setor, incluindo controle de filiais, categorias, tarifas, taxas, pagamentos e manutenção de veículos.
 
-A solução foi desenvolvida com foco na rastreabilidade das operações, consistência das informações e flexibilidade para consultas gerenciais. Cada etapa do fluxo — reserva → retirada → uso → devolução → pagamento — é representada por tabelas e relacionamentos adequados, permitindo registros completos e análises de desempenho, faturamento e disponibilidade de frota.
+A solução foi desenvolvida com foco na rastreabilidade das operações, consistência das informações e flexibilidade para consultas gerenciais. Cada etapa do fluxo como: reserva, retirada, uso, devolução, pagamento.O que é representada por tabelas e relacionamentos adequados, permitindo registros completos e análises de desempenho, faturamento e disponibilidade de frota.
 
 Além das operações básicas, o projeto integra controles complementares, como histórico de movimentações, auditoria via triggers, índices otimizados, visões para relatórios mensais e uma procedure para *devolução automatizada* utilizando function de cálculo de multa.
 
