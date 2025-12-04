@@ -14,7 +14,7 @@ Além das operações básicas, o projeto integra controles complementares, como
 
 ---
 
-# 📌 **Vídeo - Apresentando e Explicando com clareza o Banco de Locação**
+# 📌 **Vídeo - Apresentando o Banco do Sistema de Locação**
 
 * `https://drive.google.com/file/d/1dlK_xJMm1YF-OkvVzpkhBshdseWNIWwA`
 
