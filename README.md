@@ -14,6 +14,12 @@ Além das operações básicas, o projeto integra controles complementares, como
 
 ---
 
+### ** 📌 Vídeo Apresentando e Explicando com clareza o Banco de Locação**
+
+* `https://drive.google.com/file/d/1dlK_xJMm1YF-OkvVzpkhBshdseWNIWwA`
+
+---
+
 # ⚙️ **2. Como Executar os Scripts (Ordem Recomendada)**
 
 Execute os arquivos **nesta ordem**:
@@ -117,7 +123,7 @@ Entradas de manutenção preventiva ou corretiva.
 
 # 🧩 **5. Decisões de Modelagem**
 
-### **✔ Separação entre RESERVA e LOCACAO**
+### ** Separação entre RESERVA e LOCACAO**
 
 A reserva representa apenas a *intenção* de usar o veículo, enquanto a locação é o *uso real*.
 Isso permite:
@@ -126,7 +132,7 @@ Isso permite:
 * medir taxa de conversão
 * controlar veículos bloqueados por reserva futura
 
-### **✔ Controle de Filiais**
+### ** Controle de Filiais**
 
 Veículos pertencem a uma filial, mas podem ser movimentados (tabela MOVIMENTO_VEICULO).
 Isso reflete cenários reais como:
@@ -134,17 +140,17 @@ Isso reflete cenários reais como:
 * transferência entre unidades
 * devolução em filial diferente
 
-### **✔ Tarifas x Taxas**
+### ** Tarifas x Taxas**
 
 Tarifas são valores de diária.
 Taxas são adicionais por serviço (limpeza, entrega, etc).
 Modelados separadamente para permitir combinações flexíveis.
 
-### **✔ Status estruturados (ENUMs)**
+### ** Status estruturados (ENUMs)**
 
 Campos como STATUSVEICULO e STATUSLOCACAO usam ENUMs para garantir consistência.
 
-### **✔ Procedure de devolução + Function de multa**
+### ** Procedure de devolução + Function de multa**
 
 Simula operação real de caixa:
 
@@ -154,18 +160,19 @@ Simula operação real de caixa:
 * atualiza KM
 * libera veículo
 
-### **✔ Views para relatórios**
+### ** Views para relatórios**
 
 * `vw_faturamento_mensal` → análises gerenciais
 * `vw_utilizacao_frota` → performance da frota
 * `vw_clientes` → listagem geral para CRM
 
-### **✔ Índices estratégicos**
+### ** Índices estratégicos**
 
 Criados em campos altamente consultados:
 datas, filiais, categorias e vínculos.
 
 ---
+
 
 * **Autor:** Guilherme Ferreira Pinheiro Guimarães
 * **Disciplina:** Banco de Dados 2 – Projeto Final
